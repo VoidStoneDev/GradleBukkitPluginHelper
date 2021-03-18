@@ -1,2 +1,6 @@
+plugins {
+    id 'java'
+}
+
 group 'nl.voidgroup.gradle.plugin'
 version '0.0.1-dev-001'
