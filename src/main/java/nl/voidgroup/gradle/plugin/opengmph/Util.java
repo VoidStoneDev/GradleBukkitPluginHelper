@@ -8,4 +8,7 @@ public class Util {
     public static <T> T requireNonNull(T obj) {
         return requireNonNull(obj, "Object cannot be null");
     }
+    public static boolean isNull(Object obj) {
+        return obj == null;
+    }
 }
